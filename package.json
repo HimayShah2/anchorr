@@ -1,0 +1,45 @@
+{
+  "name": "anchor",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "package:win": "npx expo export -p web && electron-forge make"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "clsx": "^2.1.1",
+    "expo": "~54.0.33",
+    "expo-haptics": "~15.0.8",
+    "expo-linear-gradient": "~15.0.8",
+    "expo-quick-actions": "^6.0.1",
+    "expo-status-bar": "~3.0.9",
+    "nativewind": "^2.0.11",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-reanimated": "~4.1.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-url-polyfill": "^3.0.0",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^3.3.2",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.11.1",
+    "@electron-forge/maker-squirrel": "^7.11.1",
+    "@electron-forge/maker-zip": "^7.11.1",
+    "@react-native-community/cli": "^20.1.1",
+    "@react-native-community/cli-platform-android": "^20.1.1",
+    "@types/react": "~19.1.0",
+    "babel-preset-expo": "^54.0.10",
+    "electron": "^40.4.0",
+    "electron-forge": "^5.2.4",
+    "electron-serve": "^3.0.1",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
